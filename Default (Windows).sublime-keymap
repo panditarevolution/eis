@@ -1,0 +1,5 @@
+[
+    { "keys": ["ctrl+shift+9"],"command": "open_shell_box"} ,
+    { "keys": ["ctrl+shift+8"],"command": "build_eis_menu"} 
+    // { "keys": ["super+a"], "command": "select_all" }
+]

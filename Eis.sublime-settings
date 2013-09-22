@@ -1,0 +1,18 @@
+{
+    // The following allows for adding general string to the beginning or the end of all commands
+    "prefix":"",
+    "postfix":"",
+
+    // If the following is set to true, "start" and/or "pause" will be appended on Windows and "xxxx" and/or "read -r 'asdf'" on Linux
+    "add_start":false,
+    "add_pause":false,
+
+    // Execute commands from this folder. Note that this folder should not be the st2 base directory. $file_dir calls the directory of the file in view
+    "exec_folder":"C:/",
+
+    // This sets how much info is given if an error occurs. The following can be set:
+    // "verbose":"0"   --> prints a sorry message to a dialogue
+    // "verbose":"1"   --> prints Traceback.format_exc() with more information
+    // "verbose":"2"   --> prints sys.exc_info() with even more information
+    "verbose":"1"
+}
